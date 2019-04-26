@@ -1,0 +1,27 @@
+h1, h2 {
+  font-family: Lato;
+}
+.libro{
+  width: 50px;
+  height: 80px;
+  position: relative;
+  cursor: pointer;
+}
+.pasta{
+  width: 10px;
+  height: 80px;
+  background-color: grey;
+  position: absolute;
+  left: 0;
+}
+.contenido{
+  width: 40px;
+  height: 80px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+}
+.contenido::after {
+  content: 'hello';
+  color:white;
+}
